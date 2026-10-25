@@ -1,0 +1,12 @@
+# run 1 (verify.sh, iters=20000)
+fp16->fp16 (control): 64.79 TFLOPS
+fp16->fp32 (target) : 64.97 TFLOPS
+ratio fp32acc/fp16acc: 1.003
+# run 2 (iters=40000)
+fp16->fp16 (control): 65.36 TFLOPS
+fp16->fp32 (target) : 73.30 TFLOPS
+ratio fp32acc/fp16acc: 1.122
+# run 3 (verify.sh re-run while preparing this repo, iters=20000)
+fp16->fp16 (control): 64.79 TFLOPS
+fp16->fp32 (target) : 64.95 TFLOPS
+ratio fp32acc/fp16acc: 1.003

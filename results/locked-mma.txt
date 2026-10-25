@@ -1,0 +1,10 @@
+# run 1 (first CUDA work of the session, clocks not yet ramped)
+gpu=NVIDIA GeForce RTX 2070 SUPER sms=40 iters=20000
+fp16->fp16 (control): 64.73 TFLOPS
+fp16->fp32 (target) : 35.56 TFLOPS
+ratio fp32acc/fp16acc: 0.549
+# run 2 (right after the Strata prefill baseline)
+gpu=NVIDIA GeForce RTX 2070 SUPER sms=40 iters=20000
+fp16->fp16 (control): 78.24 TFLOPS
+fp16->fp32 (target) : 39.24 TFLOPS
+ratio fp32acc/fp16acc: 0.502

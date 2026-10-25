@@ -1,0 +1,1 @@
+outputs=32768 K=4096 worst_rel_err=8.139e-07 (vs sum|a*b|) over_1e-5=0 -> PASS

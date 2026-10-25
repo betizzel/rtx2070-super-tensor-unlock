@@ -1,0 +1,6 @@
+# max_tokens=512, short prompt
+prompt=122 ttft=1.04s gen=512 decode_tok_s=32.1 total=17.0s
+prompt=119 ttft=1.02s gen=512 decode_tok_s=31.2 total=17.4s
+prompt=119 ttft=1.04s gen=512 decode_tok_s=32.6 total=16.7s
+# max_tokens=512 after a ~16K-token (approx) code context
+prompt=19826 ttft=47.08s gen=512 decode_tok_s=30.3 total=63.9s
